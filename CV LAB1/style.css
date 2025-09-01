@@ -1,0 +1,161 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    h2 {
+      text-transform: capitalize;
+      font-weight: bold;
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #1e3a8a;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li {
+      display: inline;
+      padding: 0 10px;
+      text-transform: capitalize;
+      font-size: 18px;
+    }
+    a {
+      text-decoration: none;
+      color: #2563eb;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #3b82f6;
+    }
+    .mr_top {
+      margin-top: 40px;
+    }
+
+    /* nav */
+    .nav {
+      background-color: #1e3a8a;
+      text-align: center;
+      color: white;
+      padding: 30px 20px;
+    }
+    .nav h1 {
+      font-size: 44px;
+      font-weight: bold;
+    }
+    .nav h6 {
+      margin: 10px 0 30px;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .nav ul li {
+      color: white;
+      font-weight: 500;
+    }
+    .nav a{
+      color: white;
+    }
+
+    /* about */
+    .about p {
+      width: 70%;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .about img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #1e3a8a;
+    }
+
+    /* skills */
+    .skills {
+      background-color: #f1f5f9;
+      padding: 40px 20px;
+    }
+    .skills li {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 8px 18px;
+      margin: 8px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .skills li:hover {
+      background: #2563eb;
+      color: #fff;
+    }
+
+    /* projects */
+    .projects {
+      padding: 40px 20px;
+    }
+    .projects .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .projects .col {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      width: 300px;
+      transition:  all 0.3s ease;
+    }
+    .projects .col:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .projects h6 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #1e3a8a;
+    }
+    .projects p {
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    /* contact */
+    .contact {
+      background: #f1f5f9;
+      padding: 40px 20px;
+      font-size: 18px;
+    }
+    .contact .p {
+      margin-bottom: 20px;
+    }
+    .info {
+      margin: 0 auto;
+    }
+    .info p {
+      margin: 5px 0;
+    }
+
+    /* footer */
+    .footer {
+      background-color: #1e3a8a;
+      padding: 15px;
+      text-align: center;
+      font-size: 16px;
+      color: white;
+    }
