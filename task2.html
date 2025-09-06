@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h2 class="h2">LOg In</h2>
+        <form class="form" id="form">
+            <label for="email">Enter Your Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@.com" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <div>
+                <input type="checkbox" name="save" id="save">
+            <label for="save"> Remember Me</label>
+            </div>
+
+            <button type="submit" class="btn" id="login">Log In</button>
+        </form>
+         <button id="clearBtn" class="btn" >Clear Remember Me</button>
+    <div class="message" id="welcomeMsg"></div>
+    </section>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
